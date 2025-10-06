@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Web Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>My Interactive Web Page</h1>
+  </header>
+
+  <!-- ======== Interactive Section 1: Theme Toggle ======== -->
+  <section class="theme-section">
+    <h2>Theme Switcher</h2>
+    <button id="themeToggleBtn">Switch to Dark Mode</button>
+  </section>
+
+  <!-- ======== Interactive Section 2: Counter ======== -->
+  <section class="counter-section">
+    <h2>Live Counter</h2>
+    <p>Count: <span id="counterValue">0</span></p>
+    <button id="incrementBtn">Increase</button>
+    <button id="decrementBtn">Decrease</button>
+  </section>
+
+  <!-- ======== Form Section ======== -->
+  <section class="form-section">
+    <h2>Contact Form</h2>
+    <form id="contactForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Enter your name">
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" placeholder="Enter your email">
+
+      <label for="message">Message:</label>
+      <textarea id="message" placeholder="Type your message..."></textarea>
+
+      <button type="submit">Submit</button>
+
+      <p id="formFeedback"></p>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Interactive Page by Azeez Sulaiman</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
